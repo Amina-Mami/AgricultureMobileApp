@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Environnements virtuels
+env/
+venv/
+ENV/
+*.env
+
+# Django
+*.sqlite3
+db.sqlite3
+/media/
+/staticfiles/
+/*.pyc
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Migrations (facultatif, selon ton besoin)
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Fichiers secrets
+.env
+*.key
+*.pem
